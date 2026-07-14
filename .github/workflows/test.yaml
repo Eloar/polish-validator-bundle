@@ -24,6 +24,11 @@ jobs:
             composer-version: v2
             stability: RC
             experimental: false
+          - php-version: '8.5'
+            symfony-version: '^7.0'
+            composer-version: v2
+            stability: RC
+            experimental: false
 
     steps:
       - name: Checkout
